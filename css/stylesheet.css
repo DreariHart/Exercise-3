@@ -2,3 +2,10 @@ body {
     background: linear-gradient(to bottom, black, purple
     );
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1fr, 4);
+    grid-gap: 20px;
+    padding: 20px;
+}
